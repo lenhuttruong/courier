@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "james",
+      "email": "damnn@haposoft.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "content": "fake REST API",
+      "user_id": 1
+    }
+  ]
+}
