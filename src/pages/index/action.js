@@ -1,4 +1,4 @@
-import { CONSTANT } from '../../store/order/constant';
+import { CONSTANT } from '../../store/constant';
 
 export const addHistory = history =>
 (dispatch, getState) =>

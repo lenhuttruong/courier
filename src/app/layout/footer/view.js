@@ -1,5 +1,4 @@
-import React from './node_modules/react';
-import classNames from './node_modules/classnames';
+import React from 'react';
 
 function Footer() {
   return (

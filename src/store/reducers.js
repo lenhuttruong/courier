@@ -1,8 +1,9 @@
-import { history } from '../../pages/index/reducer';
-import { activeTab } from '../../app/Aside/reducer';
+import { orderReducers } from '../app/order/orderReducers';
+import { layoutReducers } from '../app/layout/layoutReducers';
 
 const reducers = {
-    activeTab
+    ...orderReducers,
+    ...layoutReducers
 };
 
 export default reducers;

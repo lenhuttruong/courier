@@ -1,11 +1,10 @@
-import React from './node_modules/react';
-import { Link, NavLink } from './node_modules/react-router-dom';
-import { Badge, UncontrolledDropdown, DropdownItem, DropdownMenu, DropdownToggle, Nav, NavItem } from './node_modules/reactstrap';
-import classNames from './node_modules/classnames';
+import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
+import { Badge, UncontrolledDropdown, DropdownItem, DropdownMenu, DropdownToggle, Nav, NavItem } from 'reactstrap';
 
-import { AppAsideToggler, AppNavbarBrand, AppSidebarToggler } from './node_modules/@coreui/react';
-import logo from '../../assets/img/brand/logo.svg'
-import sygnet from '../../assets/img/brand/sygnet.svg'
+import { AppAsideToggler, AppNavbarBrand, AppSidebarToggler } from '@coreui/react';
+import logo from '../../../assets/img/brand/logo.svg';
+import sygnet from '../../../assets/img/brand/sygnet.svg';
 
 function Header(props) {
   return (
